@@ -11,7 +11,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test_item.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_item.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/integration/models/test_item.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
@@ -23,16 +23,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="item.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/item.py">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="test_store.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/integration/models/test_store.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="item_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/unit/models/item_test.py">
+      <file leaf-file-name="store.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/store.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+            <state relative-caret-position="266">
+              <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="86" />
             </state>
           </provider>
         </entry>
@@ -53,12 +60,15 @@
         <option value="$PROJECT_DIR$/tests/unit/models/unit_base_test.py" />
         <option value="$PROJECT_DIR$/tests/integration/models/test_item.py" />
         <option value="$PROJECT_DIR$/tests/unit/models/item_test.py" />
+        <option value="$PROJECT_DIR$/tests/unit/models/test_store.py" />
+        <option value="$PROJECT_DIR$/tests/integration/models/test_store.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="1" />
     <option name="width" value="960" />
-    <option name="height" value="1040" />
+    <option name="height" value="1073" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -71,29 +81,6 @@
             <path>
               <item name="starter_code" type="b2602c69:ProjectViewProjectNode" />
               <item name="starter_code" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="starter_code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="starter_code" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="starter_code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="starter_code" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="starter_code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="starter_code" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="unit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="starter_code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="starter_code" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="unit" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -108,7 +95,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Babel\Desktop\Courses Python\testing-python-apps-master\section6\starter_code\tests\unit" />
       <recent name="C:\Users\Babel\Desktop\Courses Python\testing-python-apps-master\section6\starter_code\tests\integration" />
+      <recent name="C:\Users\Babel\Desktop\Courses Python\testing-python-apps-master\section6\starter_code\tests" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -123,8 +112,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_item.ItemTest">
-    <configuration name="Unittests for item_test.ItemTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests for test_store.TestStore.test_json_create_store">
+    <configuration name="Unittests for item_test.ItemTest.test_create_item" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="starter_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -134,10 +123,23 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;item_test.ItemTest&quot;" />
+      <option name="_new_target" value="&quot;item_test.ItemTest.test_create_item&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests for test_item.ItemTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_store.TestStore.test_create_store" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="starter_code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/unit/models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_store.TestStore.test_create_store&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests for test_store.TestStore.test_crud" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="starter_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -147,10 +149,10 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_item.ItemTest&quot;" />
+      <option name="_new_target" value="&quot;test_store.TestStore.test_crud&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests for test_item.ItemTest.test_crud" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_store.TestStore.test_json_create_store" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="starter_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -160,10 +162,10 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_item.ItemTest.test_crud&quot;" />
+      <option name="_new_target" value="&quot;test_store.TestStore.test_json_create_store&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests for test_item.ItemTest.test_store_relationship" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_store.TestStore.test_json_store" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="starter_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -173,36 +175,23 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_item.ItemTest.test_store_relationship&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
-    <configuration name="Unittests for tests.integration.models.test_item.ItemTest.test_store_relationship" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="starter_code" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/integration/models" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.integration.models.test_item.ItemTest.test_store_relationship&quot;" />
+      <option name="_new_target" value="&quot;test_store.TestStore.test_json_store&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for tests.integration.models.test_item.ItemTest.test_store_relationship" />
-      <item itemvalue="Python tests.Unittests for item_test.ItemTest" />
-      <item itemvalue="Python tests.Unittests for test_item.ItemTest.test_crud" />
-      <item itemvalue="Python tests.Unittests for test_item.ItemTest.test_store_relationship" />
-      <item itemvalue="Python tests.Unittests for test_item.ItemTest" />
+      <item itemvalue="Python tests.Unittests for item_test.ItemTest.test_create_item" />
+      <item itemvalue="Python tests.Unittests for test_store.TestStore.test_create_store" />
+      <item itemvalue="Python tests.Unittests for test_store.TestStore.test_crud" />
+      <item itemvalue="Python tests.Unittests for test_store.TestStore.test_json_store" />
+      <item itemvalue="Python tests.Unittests for test_store.TestStore.test_json_create_store" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for test_item.ItemTest" />
-        <item itemvalue="Python tests.Unittests for item_test.ItemTest" />
-        <item itemvalue="Python tests.Unittests for test_item.ItemTest.test_store_relationship" />
-        <item itemvalue="Python tests.Unittests for test_item.ItemTest.test_crud" />
-        <item itemvalue="Python tests.Unittests for tests.integration.models.test_item.ItemTest.test_store_relationship" />
+        <item itemvalue="Python tests.Unittests for test_store.TestStore.test_json_create_store" />
+        <item itemvalue="Python tests.Unittests for test_store.TestStore.test_json_store" />
+        <item itemvalue="Python tests.Unittests for test_store.TestStore.test_crud" />
+        <item itemvalue="Python tests.Unittests for test_store.TestStore.test_create_store" />
+        <item itemvalue="Python tests.Unittests for item_test.ItemTest.test_create_item" />
       </list>
     </recent_temporary>
   </component>
@@ -220,42 +209,41 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_item_test_ItemTest_test_store_relationship - 2018.07.18 at 19h 50m 15s.xml">
-      <configuration name="Unittests for item_test.ItemTest.test_store_relationship" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_item_test_ItemTest - 2018.07.18 at 20h 02m 19s.xml">
-      <configuration name="Unittests for item_test.ItemTest" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_item_test_ItemTest - 2018.07.18 at 20h 02m 36s.xml">
-      <configuration name="Unittests for item_test.ItemTest" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_item_ItemTest_test_crud - 2018.07.18 at 20h 06m 30s.xml">
-      <configuration name="Unittests for test_item.ItemTest.test_crud" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_item_ItemTest_test_store_relationship - 2018.07.18 at 20h 06m 38s.xml">
-      <configuration name="Unittests for test_item.ItemTest.test_store_relationship" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_item_ItemTest - 2018.07.18 at 20h 06m 41s.xml">
-      <configuration name="Unittests for test_item.ItemTest" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_item_ItemTest - 2018.07.18 at 20h 09m 19s.xml">
-      <configuration name="Unittests for test_item.ItemTest" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_item_ItemTest - 2018.07.18 at 20h 09m 35s.xml">
-      <configuration name="Unittests for test_item.ItemTest" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_item_test_ItemTest - 2018.07.18 at 21h 11m 09s.xml">
-      <configuration name="Unittests for item_test.ItemTest" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_test_item_ItemTest - 2018.07.18 at 21h 11m 17s.xml">
       <configuration name="Unittests for test_item.ItemTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_item_test_ItemTest_test_create_item - 2018.07.19 at 21h 09m 47s.xml">
+      <configuration name="Unittests for item_test.ItemTest.test_create_item" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_store_TestStore_test_create_store - 2018.07.19 at 21h 14m 09s.xml">
+      <configuration name="Unittests for test_store.TestStore.test_create_store" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_store_TestStore_test_crud - 2018.07.19 at 21h 21m 28s.xml">
+      <configuration name="Unittests for test_store.TestStore.test_crud" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_store_TestStore_test_json_store - 2018.07.19 at 21h 34m 06s.xml">
+      <configuration name="Unittests for test_store.TestStore.test_json_store" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_store_TestStore_test_json_store - 2018.07.19 at 21h 34m 09s.xml">
+      <configuration name="Unittests for test_store.TestStore.test_json_store" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_store_TestStore_test_json_create_store - 2018.07.19 at 21h 40m 41s.xml">
+      <configuration name="Unittests for test_store.TestStore.test_json_create_store" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_store_TestStore_test_json_create_store - 2018.07.19 at 21h 41m 19s.xml">
+      <configuration name="Unittests for test_store.TestStore.test_json_create_store" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_store_TestStore_test_json_create_store - 2018.07.19 at 21h 41m 37s.xml">
+      <configuration name="Unittests for test_store.TestStore.test_json_create_store" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_store_TestStore_test_json_create_store - 2018.07.19 at 21h 41m 53s.xml">
+      <configuration name="Unittests for test_store.TestStore.test_json_create_store" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
@@ -277,7 +265,32 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/tests/integration/models/test_item.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/unit/models/item_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/models/store.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -306,9 +319,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -320,19 +330,43 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/item.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
             <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/unit/unit_base_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/unit/models/test_store.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/unit/models/item_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="18" lean-forward="true" selection-start-line="26" selection-start-column="45" selection-end-line="27" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -347,39 +381,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/unit/models/unit_base_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/store.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/item.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/unit/models/item_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/integration/models/test_item.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/store.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/integration/models/test_store.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
