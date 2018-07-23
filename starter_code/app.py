@@ -7,7 +7,8 @@ from flask_jwt import JWTError
 from resources.item import Item, ItemList
 from resources.store import Store, StoreList
 from resources.user import UserRegister
-from security import authenticate, identity
+from security import authenticate
+from security import identity
 
 app = Flask(__name__)
 
@@ -18,7 +19,7 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.secret_key = 'hub.123'
 api = Api(app)
 
-jwt = JWT(app, authenticate, identity)
+jwt = JWTError(app, authenticate, identity)
 
 
 api.add_resource(Store, '/store/<string:name>')

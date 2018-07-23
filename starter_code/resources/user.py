@@ -4,7 +4,7 @@ from models.user import UserModel
 
 class UserRegister(Resource):
     parser = reqparse.RequestParser()
-    parser.add_argument('userneme',
+    parser.add_argument('username',
                         type = str,
                         required =True,
                         help =
