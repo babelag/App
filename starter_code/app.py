@@ -2,7 +2,7 @@ import os
 
 from flask import Flask
 from flask_restful import Api
-from flask_jwt import JWTError
+from flask_jwt import JWT, JWTError
 
 from resources.item import Item, ItemList
 from resources.store import Store, StoreList
@@ -19,7 +19,7 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.secret_key = 'hub.123'
 api = Api(app)
 
-jwt = JWTError(app, authenticate, identity)
+jwt = JWT(app, authenticate, identity)
 
 
 api.add_resource(Store, '/store/<string:name>')
