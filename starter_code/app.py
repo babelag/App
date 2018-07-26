@@ -3,6 +3,7 @@ import os
 from flask import Flask
 from flask_restful import Api
 from flask_jwt import JWT, JWTError
+from flask import jsonify
 
 from resources.item import Item, ItemList
 from resources.store import Store, StoreList
